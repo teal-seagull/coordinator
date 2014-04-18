@@ -47,7 +47,7 @@ textarea { overflow: auto; }
 .header-top { height: 72px;  }
 
 #logo { width: 300px; font-size: 0; line-height: 0; float: left; }
-#logo a { height: 57px; display: block;  background: url(images/logo.png) no-repeat 0 0; text-indent: -4000px; }
+#logo a { height: 60px; display: block;  background: url(images/logo.png) no-repeat 0 0; text-indent: -4000px; }
 
 #navigation { float: right; padding-top: 13px; }
 #navigation ul { list-style: none; list-style-position: outside; font-size: 17px; font-family: 'Coda', cursive; font-weight: 400;  }
@@ -198,6 +198,10 @@ textarea { overflow: auto; }
 .main .post-cnt ul li a { text-decoration: underline; }
 .main .post-cnt ul li a:hover { text-decoration: none; }
 
+/* Custom right alignment */
+.main .post-right { padding-left: 32px; padding-right: 32px; }
+.main .post-right img { float: right; margin-left: 18px; width: 333px; height: 333px; }
+
 .main .content { padding-left: 32px; padding-right: 32px; }
 .main .content span { text-decoration: underline; }
 
@@ -318,6 +322,8 @@ textarea { overflow: auto; }
 	.main .post h2 { font-size: 21px;  }
 	.main .post img { width: 274px; height: 274px; }
 
+	.main .post-right img { width: 274px; height: 274px; }
+
 	.main .socials { height: 80px; padding-top: 16px;  margin: 0 20px; }
 	.main .socials p { display: block; float: none; line-height: 22px; }
 	.main .socials ul { display: block; float: none;  }
@@ -407,6 +413,8 @@ textarea { overflow: auto; }
 	.main .post h2 { font-size: 21px;  }
 	.main .post img { width: 274px; height: 274px; }
 
+	.main .post-right img { width: 274px; height: 274px; }
+
 	.main .socials { height: 120px; padding-top: 16px;  margin: 0 10px; }
 	.main .socials p { display: block; float: none; line-height: 22px; }
 	.main .socials ul { display: block; float: none; }
@@ -432,7 +440,7 @@ textarea { overflow: auto; }
 
 @media only screen and ( max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-resolution: 240dpi)  { 
 
-	#logo a { background: url(images/logo@2x.png) no-repeat 0 0;   -webkit-background-size: 142px 57px; -moz-background-size: 142px 57px; background-size: 142px 57px; }
+	#logo a { background: url(images/logo@2x.png) no-repeat 0 0;   -webkit-background-size: 142px 60px; -moz-background-size: 142px 60px; background-size: 142px 60px; }
 	#navigation { background: url(images/navigation@2x.png) no-repeat 0 0;  -webkit-background-size: 298px 32px; -moz-background-size: 298px 32px; background-size: 298px 32px;  }
 	#navigation a.nav-btn span { background: url(images/nav-arr@2x.png) no-repeat 0 0; -webkit-background-size: 10px 15px; -moz-background-size: 10px 15px; background-size: 10px 15px; }
 	.pagination a { background: url(images/pagination@2x.png) no-repeat 0 1px; -webkit-background-size: 18px 40px; -moz-background-size: 18px 40px; background-size: 18px 40px; }
