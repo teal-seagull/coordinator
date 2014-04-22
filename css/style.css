@@ -268,7 +268,7 @@ textarea { overflow: auto; }
 #navigation a.nav-btn { display: none;  }
 
 /* Custom for contactus */
-.form-contact { margin-left: 32px; background-color: #FFFFFF; margin-right: 32px; }
+.form-contact { margin-left: 32px; margin-right: 32px; }
 .form-contact .img-contact { max-width: 300px; margin-left: 20px; margin-top: 30px; }
 .form-container { margin-top: 20px; }
 .form-row { margin-top: 6px; }
@@ -493,4 +493,3 @@ textarea { overflow: auto; }
 	#navigation a.nav-btn span { background: url(images/nav-arr@2x.png) no-repeat 0 0; -webkit-background-size: 10px 15px; -moz-background-size: 10px 15px; background-size: 10px 15px; }
 	.pagination a { background: url(images/pagination@2x.png) no-repeat 0 1px; -webkit-background-size: 18px 40px; -moz-background-size: 18px 40px; background-size: 18px 40px; }
 	.main section { background: url(images/section@2x.png) no-repeat center bottom; -webkit-background-size: 300px 10px; -moz-background-size: 300px 10px; background-size: 300px 10px;  }
-}
