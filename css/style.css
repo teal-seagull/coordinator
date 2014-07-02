@@ -283,6 +283,8 @@ textarea { overflow: auto; }
 .contact-row { margin-top: 3px; }
 .contact-label { display: inline-block; font-weight: bold; width: 60px; }
 .contact-data { display: inline-block; }
+.form-instructions { margin-left: 50px; margin-top: 10px; }
+
 
 /* #Media Queries
 ================================================== */
@@ -483,6 +485,7 @@ textarea { overflow: auto; }
 	.contact-row { margin-top: 3px; }
 	.contact-label { position: relative; font-weight: bold; width: 100%; }
 	.contact-data { position: relative; }
+	.form-instructions { margin-right: 0 auto; margin-left: 0 auto; margin-top: 10px; width: 200px; }
 
 }
 
