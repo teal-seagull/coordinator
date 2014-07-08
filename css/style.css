@@ -212,6 +212,7 @@ textarea { overflow: auto; }
 /* Custom right alignment */
 .main .post-right { padding-left: 32px; padding-right: 32px; }
 .main .post-right img { float: right; margin-left: 18px; width: 333px; height: 333px; }
+.main .post-right .img-buy-amazon {  float: left; width: 100px; height: 34px; margin-left: 0px; }
 
 .main .content { padding-left: 32px; padding-right: 32px; }
 .main .content span { text-decoration: underline; }
