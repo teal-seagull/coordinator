@@ -123,7 +123,7 @@ textarea { overflow: auto; }
 #carousel h5 { font-size: 15px; color: #d3d2d3; font-family: tahoma, arial, helvetica, serif; text-transform: uppercase; text-shadow: rgba(0,0,0,0.5) 0px 1px 1px; font-weight: normal; position: absolute; top: 63px; left: 32px; white-space: nowrap; }
 
 #carousel p {
-	color: #959697;
+	color: #d4d4d4;
 	font-size: 14px;
 	width: 420px;
 	left: 32px;
